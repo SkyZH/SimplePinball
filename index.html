@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pinball</title>
+    <style media="screen">
+      .ball {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 10px;
+        position: absolute;
+      }
+      .board {
+        display: block;
+        width: 100px;
+        height: 20px;
+        background-color: blue;
+        border-radius: 1px;
+        position: absolute;
+        bottom: 0px;
+      }
+      .score {
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        font-family: monospace;
+        font-size: 3rem;
+      }
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ball"></div>
+    <div class="board"></div>
+    <div class="score"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/index.js" charset="utf-8"></script>
+  </body>
+</html>
